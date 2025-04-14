@@ -16,8 +16,6 @@
 };
  
 / {
-
-/ {
   chosen {
     zmk,physical-layout = &geacon_physical_layout;
   };
