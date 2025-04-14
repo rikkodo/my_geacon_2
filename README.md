@@ -13,7 +13,8 @@
 ・ZMKによる無線接続対応  
 ・60%Grin配列  
 ・トラックボール搭載  
-![](keymap-drawer/Geacon.svg)
+![](keymap-drawer/geacon.svg)
+![](keymap-drawer/geacon_jis.svg)
 
 ## 販売
 たぶん[booth](https://te9no.booth.pm/)で販売  
