@@ -13,7 +13,11 @@
 ・ZMKによる無線接続対応  
 ・60%Grin配列  
 ・トラックボール搭載  
+
+### US配列
 ![](keymap-drawer/geacon.svg)
+
+### JIS配列
 ![](keymap-drawer/geacon_jis.svg)
 
 ## 販売
