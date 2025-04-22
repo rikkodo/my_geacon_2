@@ -10,6 +10,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: geacon rgbled_adapter
     snippet: zmk-usb-logging studio-rpc-usb-uart
-    cmake-args: -DKEYMAP_FILE=../../config/geacon_JIS.keymap
+    cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
+    artifact-name: geacon_jis
   - board: seeeduino_xiao_ble
     shield: settings_reset
