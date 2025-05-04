@@ -13,6 +13,7 @@ include:
     shield: geaconproto rgbled_adapter dongle_display
     snippet: zmk-usb-logging studio-rpc-usb-uart
     artifact-name: geaconproto
+    cmake-args: -DKEYMAP_FILE=../../config/geacon.keymap
   - board: seeeduino_xiao_ble
     shield: geaconproto rgbled_adapter dongle_display
     snippet: zmk-usb-logging studio-rpc-usb-uart
