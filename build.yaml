@@ -1,9 +1,5 @@
 ---
 include:
-#  - board: seeeduino_xiao_ble
-#    shield: geacon_jis rgbled_adapter
-#    snippet: zmk-usb-logging studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: seeeduino_xiao_ble
     shield: geacon rgbled_adapter
     snippet: zmk-usb-logging studio-rpc-usb-uart
@@ -12,5 +8,16 @@ include:
     snippet: zmk-usb-logging studio-rpc-usb-uart
     cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
     artifact-name: geacon_jis
+
+  - board: seeeduino_xiao_ble
+    shield: geaconproto_jis
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: geaconproto
+  - board: seeeduino_xiao_ble
+    shield: geaconproto rgbled_adapter dongle_display
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
+    artifact-name: geaconproto_jis
+ 
   - board: seeeduino_xiao_ble
     shield: settings_reset
