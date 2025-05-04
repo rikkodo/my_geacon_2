@@ -1,3 +1,3 @@
-config SHIELD_GEACON
-  def_bool $(shields_list_contains,geacon)
+config SHIELD_GEACONPROTO
+  def_bool $(shields_list_contains,geaconproto)
   
