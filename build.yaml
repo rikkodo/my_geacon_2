@@ -10,7 +10,7 @@ include:
     artifact-name: geacon_jis
 
   - board: seeeduino_xiao_ble
-    shield: geaconproto_jis
+    shield: geaconproto
     snippet: zmk-usb-logging studio-rpc-usb-uart
     artifact-name: geaconproto
   - board: seeeduino_xiao_ble

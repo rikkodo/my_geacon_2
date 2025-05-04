@@ -1,6 +1,6 @@
 if SHIELD_GEACONPROTO
     config ZMK_KEYBOARD_NAME
-    default "geaconproto"
+        default "geaconproto"
 
     config SPI
         default y
