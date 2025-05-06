@@ -16,10 +16,10 @@
  
 / {
   chosen {
-    zmk,physical-layout = &geacon_physical_layout;
+    zmk,physical-layout = &layout_JIS;
   };
 
-  geacon_physical_layout: geacon_physical_layout {
+  layout_JIS: layout_JIS {
       compatible = "zmk,physical-layout";
       display-name = "Default";
       transform = <&default_transform>;
