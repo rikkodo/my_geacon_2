@@ -3,22 +3,22 @@ include:
   - board: seeeduino_xiao_ble
     shield: geacon rgbled_adapter
     snippet: zmk-usb-logging studio-rpc-usb-uart
-  - board: seeeduino_xiao_ble
-    shield: geacon rgbled_adapter
-    snippet: zmk-usb-logging studio-rpc-usb-uart
-    cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
-    artifact-name: geacon_jis
+#  - board: seeeduino_xiao_ble
+#    shield: geacon rgbled_adapter
+#    snippet: zmk-usb-logging studio-rpc-usb-uart
+#    cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
+#    artifact-name: geacon_jis
 
-  - board: seeeduino_xiao_ble
-    shield: geaconproto rgbled_adapter dongle_display
-    snippet: zmk-usb-logging studio-rpc-usb-uart
-    artifact-name: geaconproto
-    cmake-args: -DKEYMAP_FILE=../../config/geacon.keymap
-  - board: seeeduino_xiao_ble
-    shield: geaconproto rgbled_adapter dongle_display
-    snippet: zmk-usb-logging studio-rpc-usb-uart
-    cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
-    artifact-name: geaconproto_jis
- 
+#  - board: seeeduino_xiao_ble
+#    shield: geaconproto rgbled_adapter dongle_display
+#    snippet: zmk-usb-logging studio-rpc-usb-uart
+#    artifact-name: geaconproto
+#    cmake-args: -DKEYMAP_FILE=../../config/geacon.keymap
+#  - board: seeeduino_xiao_ble
+#    shield: geaconproto rgbled_adapter dongle_display
+#    snippet: zmk-usb-logging studio-rpc-usb-uart
+#    cmake-args: -DKEYMAP_FILE=../../config/geacon_jis.keymap
+#    artifact-name: geaconproto_jis
+
   - board: seeeduino_xiao_ble
     shield: settings_reset
